@@ -1,6 +1,6 @@
 # Rock_Paper_Scissors_Game
 
-## Rock Paper Scissors Game cover for Russian speaking audiency.
+## Rock Paper Scissors Game cover for Russian speaking audience.
 
 ### Over amazing tutorial from FreeCodeCamp https://www.youtube.com/watch?v=jaVNP3nIAv0
 ---
