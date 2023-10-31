@@ -113,7 +113,6 @@ header h1 {
 
 
 
-
 /*****************************                                          ***********/
 /*****************************        @media (max-width: 768px)         ***********/
 /*****************************                                          ***********/
@@ -121,26 +120,34 @@ header h1 {
 
 @media (max-width: 768px) {
 
-    .choice {
-        display: block;
+    .score--board {
+        padding: 0;
+        font-size: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
+    }
+
+    #userLabel {
+        top: -15px;
+    }
+
+    #computerLabel {
+        top: -15px;
     }
 
     .results {
-        height: 2vh;
+        min-height: 5vh;
     }
 
     .choices {
         margin: 30px 0 10px;
     }
 
+    .choice {
+        display: block;
+        padding: 6px;
+    }
+
     .choices img {
         height: auto;
         width: 30vw;
     }
-
-
-
-
-
-
 }
